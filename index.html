@@ -1,0 +1,282 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="head_Section">
+    <h3>Coffee</h3>
+
+    <!-- Toggle Button -->
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+
+    <ul id="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#test">Testimonials</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</header>
+
+<!-- ================= HERO SECTION ================= -->
+<section class="hero_section" id="home">
+    <img src="images/pexels-sryedeforoogh-29599050.jpg" alt="Coffee Image">
+
+    <div class="hero_details">
+        <h3 id="hero_h3"><i>Best Coffee</i></h3>
+        <h3>Make Your Day Great With Our Special Offer</h3>
+        <p>Welcome to our Coffee Paradise, where every bean tells a story.</p>
+
+        <div class="hero_buttons">
+            <div class="order_hero">
+                <button id="order_btn">Order Now</button>
+                <button>Contact Us</button>
+            </div>
+        </div>
+    </div>
+</section>
+ <section class="about" id="about">
+    <div class="about_section">
+        <div class="about_image">
+            <img src="images/business-woman-with-laptop.jpg" alt="About Us">
+        </div>
+
+        <div class="about_details">
+            <h1>ABOUT US</h1>
+            <p id="About_para">
+                The product is more than a beverage; it’s a shared experience.
+                We believe in the power of a great cup to bring people together,
+                creating moments of connection and joy.More than just a coffee shop, we're your local escape. A place to meet friends, work, or relax with a perfectly brewed coffee. We bring warmth and community together, one cup at a time.
+            </p>
+
+            <div class="font_about">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+            </div>
+        </div>
+    </div>
+</section>
+ <section class="menu" id="menu">
+    <div class="menu_text">
+        <h1>OUR MENU</h1>
+    </div>
+
+    <div class="menu_section">
+        <div class="items">
+
+            <div class="menu_box">
+                <div class="menu_image">
+                    <img src="/images/cappuccino-served-blue-cup.jpg" alt="">
+                </div>
+                <h3>Hot Beverage</h3>
+                <p>Wide range of steaming hot coffee to make you fresh and light.</p>
+            </div>
+
+            <div class="menu_box">
+                <div class="menu_image">
+                    <img src="/images/glass-mojito-with-three-colorful-shots-around.jpg" alt="">
+                </div>
+                <h3>Cold Beverage</h3>
+                <p>Wide range of refreshing cold drinks.</p>
+            </div>
+
+            <div class="menu_box">
+                <div class="menu_image">
+                    <img src="/images/delicious-burgers-studio.jpg" alt="">
+                </div>
+                <h3>Burgers</h3>
+                <p>Delicious burgers made with fresh ingredients.</p>
+            </div>
+
+            <div class="menu_box">
+                <div class="menu_image">
+                    <img src="/images/thin-chicken-roasted-sticks-served-with-tomato-rosemary-sauce.jpg" alt="">
+                </div>
+                <h3>Chicken</h3>
+                <p>Crispy and juicy chicken varieties.</p>
+            </div>
+
+            <div class="menu_box">
+                <div class="menu_image">
+                    <img src="/images/variety-fruit-juices-black-background.jpg" alt="">
+                </div>
+                <h3>Fruit Juice</h3>
+                <p>Healthy and refreshing fruit juices.</p>
+            </div>
+
+            <div class="menu_box">
+                <div class="menu_image">
+                    <img src="/images/cappuccino-served-blue-cup.jpg" alt="">
+                </div>
+                <h3>Special Coffee</h3>
+                <p>Our signature coffee blends.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+ 
+
+
+<section class="test" id="test">
+  <div class="test_section">
+    <h2 class="test_header">TESTIMONIALS</h2>
+
+    <div class="test_container">
+      <button class="nav_btn" onclick="slideLeft()">❮</button>
+
+      <div class="slider_view">
+        <div class="text_box_container" id="slider">
+
+          <!-- Box 1 -->
+          <div class="text_box">
+            <div class="text_image">
+              <img src="/images/p1.jpg" alt="">
+            </div>
+            <h3>John</h3>
+            <p>Great service!</p>
+          </div>
+
+          <!-- Box 2 -->
+          <div class="text_box">
+            <div class="text_image">
+              <img src="/images/p2.jpg" alt="">
+            </div>
+            <h3>Anna</h3>
+            <p>Very professional</p>
+          </div>
+
+          <!-- Box 3 -->
+          <div class="text_box">
+            <div class="text_image">
+              <img src="/images/p5.jpg" alt="">
+            </div>
+            <h3>Mike</h3>
+            <p>Highly recommended</p>
+          </div>
+
+          <!-- Box 4 -->
+          <div class="text_box">
+            <div class="text_image">
+              <img src="/images/p3.jpg" alt="">
+            </div>
+            <h3>Sarah</h3>
+            <p>Amazing experience</p>
+          </div>
+
+          <!-- Box 5 -->
+          <div class="text_box">
+            <div class="text_image">
+              <img src="/images/p8.jpg" alt="">
+            </div>
+            <h3>David</h3>
+            <p>Will come again</p>
+          </div>
+
+          <!-- Box 6 -->
+          <div class="text_box">
+            <div class="text_image">
+              <img src="/images/p6.jpg" alt="">
+            </div>
+            <h3>Emma</h3>
+            <p>Outstanding support</p>
+          </div>
+
+        </div>
+      </div>
+
+      <button class="nav_btn" onclick="slideRight()">❯</button>
+    </div>
+  </div>
+</section>
+
+<section class="gallery" id="gallery">
+    <div class="gallery_Section">
+        <h1 class="gallery_head">GALLERY</h1>
+        <div class="gallery_container">
+            <div class="gallery_box"><img src="/images/g1.jpg" alt=""></div>
+            <div class="gallery_box"><img src="/images/g2.jpg" alt=""></div>
+            <div class="gallery_box"><img src="/images/g3.jpg" alt=""></div>
+            <div class="gallery_box"><img src="/images/g4.jpg" alt=""></div>
+            <div class="gallery_box"><img src="/images/g5.jpg" alt=""></div>
+            <div class="gallery_box"><img src="/images/g6.jpg" alt=""></div>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="contact_section">
+        <h1 class="contact_h1">CONTACT US</h1>
+        <div class="contact_container">
+            <div class="contact_box1">
+                <ul>
+                    <li><i class="fa-solid fa-location-crosshairs"></i>123 campsite Avenue,Wildereness</li>
+                    <li><i class="fa-solid fa-message"></i>info@coffeshopwebsite.com</li>
+                    <li><i class="fa-solid fa-phone"></i>123-456-789</li>
+                    <li><i class="fa-regular fa-clock"></i>Monday-Friday(10.00Am-8.00Pm)</li>
+                    <li><i class="fa-solid fa-comment"></i>Thanks for visiting this website</li>
+                </ul>
+            </div>
+            <div class="contact_box2">
+                <form action="">
+                    <input type="text" placeholder="your name"><br>
+                    <input type="email" name="" id="" placeholder="your Email"> <br>
+                    <textarea name="" id="" placeholder="your message"></textarea> <br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer_container">
+
+        <div class="footer_box">
+            <h3>Coffee Shop</h3>
+            <p>Serving happiness one cup at a time.  
+               Thank you for visiting our website.</p>
+        </div>
+
+        <div class="footer_box">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer_box">
+            <h3>Follow Us</h3>
+            <div class="footer_icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer_bottom">
+        <p>© 2026 Coffee Shop Website | All Rights Reserved</p>
+    </div>
+</footer>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
